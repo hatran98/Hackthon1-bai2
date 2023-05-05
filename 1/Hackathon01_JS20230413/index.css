@@ -1,0 +1,141 @@
+* { margin:0;
+padding:0;
+box-sizing: border-box;}
+
+.phandau {display:flex;
+  justify-content: space-between;
+  background-color: orangered;
+  width: 100%;
+  height: 100px;
+  margin:0 auto;
+  align-items: center;
+  color:white;
+  justify-content: space-around;
+}
+
+.phandau input {width: 500px;
+padding-top:15px;
+border-radius: 5px;
+border: 1px orangered;
+padding-bottom:5px;
+}
+
+.phandau button {width: 35px;
+height: 35px;
+font-size: 25px;
+color:red;
+border-radius: 5px;
+border:1px solid orangered;
+margin-left: 5px;}
+
+.phandau h1{padding-left:40px;
+font-size: 40px;
+padding-bottom:5px;}
+
+.phandau div{display:flex;
+align-items: center;
+justify-content: space-between;
+font-size: 20px;}
+
+.text2 p{padding-right:10px;
+padding-bottom:10px;}
+
+.daucham {display:flex;
+  justify-content: center;
+  height: 80px;
+  align-items: flex-end;
+  margin-bottom:30px;
+}
+
+.daucham div{border: 5px solid gray;
+border-radius: 50%;
+width: 15px;
+height: 20px;
+background-color: gray;
+margin:0px 2px
+}
+
+.phanthu2 {display: flex;
+background-color: rgba(128, 128, 128, 0.114);
+width: 100%;
+justify-content: space-around;
+padding-bottom:50px;
+}
+.danhmuc {width: 10%;
+border: 1px ridge rgba(128, 128, 128, 0.137);
+height: 200px;
+background-color: white;
+margin-left:220px;
+margin-top:20px;
+}
+
+.danhmuc p {margin-left:10px;}
+.hanghoa {display:flex;
+width:75%;
+margin-top:20px;
+}
+.cachanghoa img {width: 200px;
+height: 300px;
+}
+
+.cachanghoa {border: 1px solid rgba(128, 128, 128, 0.166);
+background-color: white;
+margin:0 10px;
+}
+
+.cachanghoa p{margin:10px 0 0 0;
+margin-left:10px;
+margin-right:10px;}
+
+.cachanghoa h4 {margin-left:10px;
+margin-right:10px;}
+
+#tim {color: violet;}
+
+.line {border:2px solid orangered}
+
+footer {display:flex;
+justify-content: space-evenly;
+padding-top:50px;
+background-color: rgba(128, 128, 128, 0.12);
+height: 200px;
+}
+
+.textfot p {color:gray;}
+
+.line2 {border:2px solid black;
+margin-top:10px;}
+
+.danhmuc p{margin-top:10px;}
+
+@media screen and (max-width: 480px) {
+body {width: 480px;}
+.phandau{display:flex;}
+.phandau h1{width:250px;
+font-size: 15px;
+margin-left:50px;}
+
+.phandau input {width: 150px;
+  padding:10px;
+font-size: 5px;}
+.phandau button {font-size:10px;
+width: 20px;
+height: 20px;}
+
+.text2 {padding-right:100px;}
+.text2 p{font-size: 10px;
+padding-top:10px;}
+.phandau p{font-size:10px;}
+
+.simp {display:flex;}
+.phanthu2 {display:block;}
+.danhmuc {
+width:100%;
+margin:0;}
+div.hanghoa{display:flex;
+flex-wrap:wrap;}
+footer{width: 100%;
+height: 300px;}
+.cachanghoa {margin:0;}
+.cachanghoa img{width:480px;}
+}
